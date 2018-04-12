@@ -1,0 +1,7 @@
+<h1>Are you sure you want to delete the following Message?</h1>
+
+<p>@ViewBag.Message[0]["MessageText"]</p>
+
+<a asp-controller="Home" asp-action="Dashboard" class="button red">No, Take me back</a>
+
+<a href='/post/@ViewBag.Message[0]["id"]/destroy' class="button green">Yes, Delete this message</a>

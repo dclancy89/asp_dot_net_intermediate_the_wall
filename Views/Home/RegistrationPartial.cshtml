@@ -1,0 +1,15 @@
+@using The_Wall.Models
+@model The_Wall.Models.RegisterViewModel
+<form asp-controller="Home" asp-action="Register" method="post">
+    <label asp-for="FirstName"></label>
+    <input asp-for="FirstName"/>
+    <label asp-for="LastName"></label>
+    <input asp-for="LastName"/>
+    <label asp-for="Email"></label>
+    <input asp-for="Email"/>
+    <label asp-for="Password"></label>
+    <input asp-for="Password"/>
+    <label asp-for="PasswordConfirmation"></label>
+    <input asp-for="PasswordConfirmation"/>
+    <button type="submit" class="button">Register</button>
+</form>

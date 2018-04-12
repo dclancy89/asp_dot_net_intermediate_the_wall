@@ -1,0 +1,56 @@
+@model The_Wall.Models.MessageViewModel
+
+<div class="row welcome">
+    <h1>Welcome to The Wall, @ViewBag.FirstName</h1>
+    <a asp-conroller="Home" asp-action="Logout">Logout</a>
+</div>
+
+
+
+<div class="row">
+    <!-- <form asp-controller="Message" asp-action="WriteMessage" method="post" id="new_message">
+        <label asp-for="MessageText"></label>
+        <textarea asp-for="MessageText"></textarea>
+        <button type="submit" class="button">Post Message</button>
+    </form> -->
+    @Html.Partial("MessagePartial", (MessageViewModel)@ViewBag.Message)
+</div>
+
+<div class="row">
+    <h2>Messages:</h2>
+   
+        @foreach(var message in ViewBag.Messages)
+        {
+            <div class="message">
+                <h4 class="author">@message["FirstName"] @message["LastName"] - @message["CreatedAt"]:</h4>
+                
+                    @if(ViewBag.ID == message["UserID"])
+                    {
+                        <a href='/post/@message["id"]/delete' class="delete">Delete</a>
+                    }
+                    
+                
+                <p>&quot;@message["MessageText"]&quot;</p>
+                <div class="comments">
+
+                
+                   @foreach(var comment in ViewBag.Comments)
+                   {
+                       <h4 class="author">@comment["FirstName"] @comment["LastName"] - @comment ["CreatedAt"]</h4>
+
+                        @if(ViewBag.ID == comment["UserID"])
+                        {
+                            <a href='/comment/@comment["id"]/delete' class="delete">Delete</a>
+                        }
+                        <p>&quot;@comment["CommentText"]&quot;</p>
+
+                        
+                   }
+                
+                @Html.Partial("CommentPartial", (CommentViewModel)@ViewBag.Comment)
+                </div>
+            </div>
+        }
+
+</div>
+

@@ -1,0 +1,10 @@
+/Users/danielclancy/Documents/Coding Dojo/csharp_dotnet/ASP.NET Core Intermediate/The Wall/bin/Debug/netcoreapp2.0/The Wall.deps.json
+/Users/danielclancy/Documents/Coding Dojo/csharp_dotnet/ASP.NET Core Intermediate/The Wall/bin/Debug/netcoreapp2.0/The Wall.runtimeconfig.json
+/Users/danielclancy/Documents/Coding Dojo/csharp_dotnet/ASP.NET Core Intermediate/The Wall/bin/Debug/netcoreapp2.0/The Wall.runtimeconfig.dev.json
+/Users/danielclancy/Documents/Coding Dojo/csharp_dotnet/ASP.NET Core Intermediate/The Wall/bin/Debug/netcoreapp2.0/The Wall.dll
+/Users/danielclancy/Documents/Coding Dojo/csharp_dotnet/ASP.NET Core Intermediate/The Wall/bin/Debug/netcoreapp2.0/The Wall.pdb
+/Users/danielclancy/Documents/Coding Dojo/csharp_dotnet/ASP.NET Core Intermediate/The Wall/obj/Debug/netcoreapp2.0/The Wall.csproj.CoreCompileInputs.cache
+/Users/danielclancy/Documents/Coding Dojo/csharp_dotnet/ASP.NET Core Intermediate/The Wall/obj/Debug/netcoreapp2.0/The Wall.AssemblyInfoInputs.cache
+/Users/danielclancy/Documents/Coding Dojo/csharp_dotnet/ASP.NET Core Intermediate/The Wall/obj/Debug/netcoreapp2.0/The Wall.AssemblyInfo.cs
+/Users/danielclancy/Documents/Coding Dojo/csharp_dotnet/ASP.NET Core Intermediate/The Wall/obj/Debug/netcoreapp2.0/The Wall.dll
+/Users/danielclancy/Documents/Coding Dojo/csharp_dotnet/ASP.NET Core Intermediate/The Wall/obj/Debug/netcoreapp2.0/The Wall.pdb

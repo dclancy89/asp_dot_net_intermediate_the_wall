@@ -1,0 +1,8 @@
+@using The_Wall.Models
+@model The_Wall.Models.CommentViewModel
+
+<form action='post/@message["id"]/writecomment' method="post" id="new_comment">
+        <label asp-for="CommentText"></label>
+        <textarea asp-for="CommentText"></textarea>
+        <button type="submit" class="button">Post Message</button>
+</form>

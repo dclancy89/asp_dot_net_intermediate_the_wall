@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row">
+    <div class="col-lg-6">
+        @Html.Partial("RegistrationPartial", (RegisterViewModel)@ViewBag.Register)
+    </div>
+    <div class="col-lg-6">
+        @Html.Partial("LoginPartial", (LoginUser)@ViewBag.LoginUser)
+    </div>
+</div>
